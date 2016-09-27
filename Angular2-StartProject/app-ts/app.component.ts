@@ -2,6 +2,6 @@
 
 @Component({
     selector: 'my-app',
-    template: '<h1>My First Angular App</h1>'
+    templateUrl: 'app/views/app.component.html'
 })
 export class AppComponent { }
