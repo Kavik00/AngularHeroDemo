@@ -68,8 +68,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\css\app.component.css" />
     <Content Include="packages.config" />
     <Content Include="app-ts\tsconfig.json" />
+    <Content Include="styles.css" />
     <Content Include="typings.json" />
     <Content Include="package.json" />
     <None Include="Web.Debug.config">

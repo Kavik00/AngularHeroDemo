@@ -10,7 +10,7 @@
         "spec": "3.0.0",
         "type": "version"
       },
-      "D:\\Users\\gary\\Source\\Repos\\Angular2-StartProject\\Angular2-StartProject"
+      "D:\\Source\\Repos\\AngularStartProject\\Angular2-StartProject"
     ]
   ],
   "_from": "@angular/router@3.0.0",
@@ -44,7 +44,7 @@
   "_shasum": "cdf91b3a5d85ad39aff4fd882455c9b8c3129cd9",
   "_shrinkwrap": null,
   "_spec": "@angular/router@3.0.0",
-  "_where": "D:\\Users\\gary\\Source\\Repos\\Angular2-StartProject\\Angular2-StartProject",
+  "_where": "D:\\Source\\Repos\\AngularStartProject\\Angular2-StartProject",
   "author": {
     "name": "angular"
   },
