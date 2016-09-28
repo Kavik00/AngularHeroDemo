@@ -68,7 +68,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\css\app.component.css" />
+    <Content Include="app\css\heroes.component.css" />
+    <Content Include="app\views\dashboard.component.html" />
+    <Content Include="app\views\hero-detail.component.html" />
     <Content Include="packages.config" />
     <Content Include="app-ts\tsconfig.json" />
     <Content Include="styles.css" />
@@ -83,7 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\systemjs.config.js" />
-    <Content Include="app\views\app.component.html" />
+    <Content Include="app\views\heroes.component.html" />
     <Content Include="gulpfile.js" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
@@ -94,8 +96,15 @@
   <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="app-ts\app.component.ts" />
+    <TypeScriptCompile Include="app-ts\dashboard.component.ts" />
+    <TypeScriptCompile Include="app-ts\heroes.component.ts" />
     <TypeScriptCompile Include="app-ts\app.module.ts" />
+    <TypeScriptCompile Include="app-ts\hero-detail.component.ts" />
+    <TypeScriptCompile Include="app-ts\hero.service.ts" />
+    <TypeScriptCompile Include="app-ts\hero.ts" />
     <TypeScriptCompile Include="app-ts\main.ts" />
+    <TypeScriptCompile Include="app-ts\mock-heroes.ts" />
+    <TypeScriptCompile Include="app-ts\app.routing.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
