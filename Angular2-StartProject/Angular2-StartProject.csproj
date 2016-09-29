@@ -68,6 +68,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\css\app.component.css" />
+    <Content Include="app\css\dashboard.component.css" />
+    <Content Include="app\css\hero-detail.component.css" />
     <Content Include="app\css\heroes.component.css" />
     <Content Include="app\views\dashboard.component.html" />
     <Content Include="app\views\hero-detail.component.html" />

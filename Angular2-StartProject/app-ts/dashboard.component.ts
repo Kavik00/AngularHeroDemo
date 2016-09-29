@@ -1,23 +1,40 @@
 ﻿import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { Hero } from './hero';
 import { HeroService } from './hero.service';
 
 @Component({
     selector: 'my-dashboard',
-    templateUrl: 'app/views/dashboard.component.html'
+    templateUrl: 'app/views/dashboard.component.html',
+    styleUrls: ['app/css/dashboard.component.css'],
 })
 
 export class DashboardComponent implements OnInit {
 
     heroes: Hero[] = [];
+    selectedHero: Hero;
 
-    constructor(private heroService: HeroService) { }
+    constructor(
+        private router: Router,
+        private heroService: HeroService) {
+    }
 
     ngOnInit(): void {
         this.heroService.getHeroes()
             .then(heroes => this.heroes = heroes.slice(0, 4));
     }
 
-    gotoDetail(hero: Hero): void { /* not implemented yet */ }
+    //gotoDetail(hero: Hero): void {
+    //    let link = ['/detail', hero.id];
+    //    this.router.navigate(link);
+    //}
+
+    gotoDetail(): void {
+        this.router.navigate(['/detail', this.selectedHero.id]);
+    }
+
+    onSelect(hero: Hero): void {
+        this.selectedHero = hero;
+    }
 }
