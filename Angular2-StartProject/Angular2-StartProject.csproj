@@ -71,9 +71,11 @@
     <Content Include="app\css\app.component.css" />
     <Content Include="app\css\dashboard.component.css" />
     <Content Include="app\css\hero-detail.component.css" />
+    <Content Include="app\css\hero-search.component.css" />
     <Content Include="app\css\heroes.component.css" />
     <Content Include="app\views\dashboard.component.html" />
     <Content Include="app\views\hero-detail.component.html" />
+    <Content Include="app\views\hero-search.component.html" />
     <Content Include="packages.config" />
     <Content Include="app-ts\tsconfig.json" />
     <Content Include="styles.css" />
@@ -100,14 +102,18 @@
   <ItemGroup>
     <TypeScriptCompile Include="app-ts\app.component.ts" />
     <TypeScriptCompile Include="app-ts\dashboard.component.ts" />
+    <TypeScriptCompile Include="app-ts\hero-search.component.ts" />
+    <TypeScriptCompile Include="app-ts\hero-search.service.ts" />
     <TypeScriptCompile Include="app-ts\heroes.component.ts" />
     <TypeScriptCompile Include="app-ts\app.module.ts" />
     <TypeScriptCompile Include="app-ts\hero-detail.component.ts" />
     <TypeScriptCompile Include="app-ts\hero.service.ts" />
     <TypeScriptCompile Include="app-ts\hero.ts" />
+    <TypeScriptCompile Include="app-ts\in-memory-data.service.ts" />
     <TypeScriptCompile Include="app-ts\main.ts" />
     <TypeScriptCompile Include="app-ts\mock-heroes.ts" />
     <TypeScriptCompile Include="app-ts\app.routing.ts" />
+    <TypeScriptCompile Include="app-ts\rxjs-extentions.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

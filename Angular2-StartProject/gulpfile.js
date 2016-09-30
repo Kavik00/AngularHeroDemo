@@ -18,6 +18,7 @@ gulp.task("scriptsNStyles", () => {
             'rxjs/**',
             'zone.js/dist/**',
             '@angular/**',
+            'angular2-in-memory-web-api/**',
             'jquery/dist/jquery.*js',
             'bootstrap/dist/js/bootstrap.*js',
     ], {
